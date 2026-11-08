@@ -1,0 +1,33 @@
+# Secrets: never commit real keys (copy .env.example to .env instead)
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Flask / local data
+instance/
+*.db
+*.sqlite3
+uploads/
+*.log
+
+# Build output and dependencies
+build/
+dist/
+*.egg-info/
+node_modules/
+
+# Editor and OS files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
