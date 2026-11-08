@@ -1,0 +1,15 @@
+# GitHub auto-requests a review from the owners of the files a PR changes.
+# Later lines override earlier ones. Replace the area owners with each
+# teammate's GitHub username once the team agrees who owns which area.
+
+# Default owner for everything
+*                       @metaxylen
+
+# Specific areas override the default
+/src/frontend/          @metaxylen
+/src/api/               @metaxylen
+/src/agents/            @metaxylen
+/tests/                 @metaxylen
+/.github/               @metaxylen
+/AGENTS.md              @metaxylen
+/CLAUDE.md              @metaxylen
